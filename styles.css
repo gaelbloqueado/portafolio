@@ -308,3 +308,84 @@ footer {
 .discord-link:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 768px) {
+  body {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 10px;
+    justify-content: space-around;
+  }
+
+  .sidebar-header {
+    margin-bottom: 10px;
+  }
+
+  .foto-perfil {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 5px;
+  }
+
+  .menu {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .menu a {
+    font-size: 1rem;
+    margin: 5px;
+    padding: 8px;
+  }
+
+  .content {
+    margin-left: 0;
+    width: 100%;
+    padding: 20px 15px;
+  }
+
+  .section h2 {
+    font-size: 1.8rem;
+  }
+
+  .proyectos-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .proyecto {
+    width: 90%;
+  }
+
+  .sehacer-container li {
+    justify-content: center;
+    text-align: left;
+  }
+
+  #que-sehacer h2,
+  #sobre-mi h2,
+  #contacto h2 {
+    font-size: 2rem;
+  }
+
+  #sobre-mi p,
+  #contacto p {
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+
+  .contact-form {
+    width: 100%;
+    padding: 0 10px;
+  }
+}
