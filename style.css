@@ -681,3 +681,149 @@ footer {
 ::-webkit-scrollbar-thumb:hover {
     background: #5c0202;
 }
+
+/* movil */
+@media screen and (max-width: 480px) {
+    #navbar {
+        padding: 10px 15px;
+    }
+    
+    .logo {
+        font-size: 1.5rem;
+    }
+    
+    .home-text h1 {
+        font-size: 2rem;
+    }
+    
+    .home-text h2 {
+        font-size: 1.2rem;
+    }
+    
+    .home-text p {
+        font-size: 1rem;
+    }
+    
+    .profile-image {
+        width: 180px;
+        height: 180px;
+    }
+    
+    .section-title h2 {
+        font-size: 1.8rem;
+    }
+    
+    .me-card {
+        padding: 15px;
+    }
+    
+    .info-item {
+        gap: 10px;
+    }
+    
+    .info-item i {
+        font-size: 1.3rem;
+    }
+    
+    .proyecto-img {
+        height: 180px;
+    }
+    
+    .contact-card {
+        width: 100%;
+        max-width: 280px;
+    }
+}@media screen and (max-width: 768px) {
+    body {
+        padding-top: 60px;
+    }
+    
+    #navbar {
+        padding: 10px 20px;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    
+    .nav-links {
+        position: absolute;
+        right: 0;
+        height: calc(100vh - 60px);
+        top: 60px;
+        background-color: rgba(0, 0, 0, 0.95);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 70%;
+        transform: translateX(100%);
+        transition: var(--transition);
+        padding: 20px 0;
+        z-index: 999;
+    }
+    
+    .nav-links li {
+        opacity: 0;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .nav-links a {
+        display: block;
+        padding: 15px 0;
+        font-size: 1.2rem;
+    }
+    
+    .burger {
+        display: block;
+    }
+    
+    .nav-active {
+        transform: translateX(0%);
+        box-shadow: -5px 0 15px rgba(0, 0, 0, 0.3);
+    }
+    
+    .section-title h2 {
+        font-size: 2rem;
+    }
+    
+    .home-text h1 {
+        font-size: 2.5rem;
+    }
+    
+    .home-text h2 {
+        font-size: 1.5rem;
+    }
+    
+    .profile-image {
+        width: 200px;
+        height: 200px;
+    }
+    
+    #music-player {
+        bottom: 20px;
+        right: 20px;
+    }
+    
+    #music-toggle {
+        width: 40px;
+        height: 40px;
+        font-size: 1rem;
+    }
+    
+    .me-info {
+        grid-template-columns: 1fr;
+    }
+    
+    .modal-content {
+        margin: 15% auto;
+        padding: 20px;
+        width: 90%;
+    }
+    
+    .proyectos-container {
+        grid-template-columns: 1fr;
+    }
+    
+    section {
+        padding: 60px 15px;
+    }
+}
