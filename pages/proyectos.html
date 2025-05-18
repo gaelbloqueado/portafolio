@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyectos - GaelBloqueado</title>
+    <link rel="icon" type="image/x-icon" href="../img/logo3.jpg" />
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../pages.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="logo">
+                <a href="../index.html">GB</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="sobre-mi.html">Sobre Mi</a></li>
+                <li><a href="proyectos.html" class="active">Proyectos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="proyectos">
+                <p class="section-subtitle">Algunos de mis trabajos más destacados</p>
+            </div>
+            
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="minecraft">Minecraft</button>
+                <button class="filter-btn" data-filter="discord">Discord</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+            </div>
+            
+            <div class="proyectos-container">
+                <div class="proyecto-card" data-id="1" data-category="minecraft">
+                    <div class="proyecto-img">
+                        <img src="../img/fearmcpeak.png" alt="FearMC Network">
+                        <div class="proyecto-overlay">
+                            <span class="view-btn">Ver Detalles</span>
+                        </div>
+                    </div>
+                    <div class="proyecto-info">
+                        <h3>FearMC Network</h3>
+                        <p class="proyecto-role">Owner & Configurador principal</p>
+                        <div class="proyecto-links">
+                            <a href="https://discord.fearmc.xyz" target="_blank"><i class="fab fa-discord"></i> Discord</a>
+                            <a href="https://tienda.fearmc.xyz" target="_blank"><i class="fas fa-shopping-cart"></i> Tienda</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="proyecto-card" data-id="2" data-category="minecraft">
+                    <div class="proyecto-img">
+                        <img src="../img/minedou.png" alt="MineDou">
+                        <div class="proyecto-overlay">
+                            <span class="view-btn">Ver Detalles</span>
+                        </div>
+                    </div>
+                    <div class="proyecto-info">
+                        <h3>MineDou</h3>
+                        <p class="proyecto-role">Owner & Configurador principal</p>
+                    </div>
+                </div>
+                
+                <div class="proyecto-card" data-id="3" data-category="minecraft">
+                    <div class="proyecto-img">
+                        <img src="../img/razbox110.png" alt="RazBoxPvP Network">
+                        <div class="proyecto-overlay">
+                            <span class="view-btn">Ver Detalles</span>
+                        </div>
+                    </div>
+                    <div class="proyecto-info">
+                        <h3>RazBoxPvP Network</h3>
+                        <p class="proyecto-role">Owner & Configurador principal</p>
+                        <div class="proyecto-links">
+                            <a href="https://discord.gg/Dv6M8BcgTB" target="_blank"><i class="fab fa-discord"></i> Discord</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="proyecto-card" data-id="4" data-category="discord">
+                    <div class="proyecto-img">
+                        <img src="../img/fearlogo.png" alt="FearBot">
+                        <div class="proyecto-overlay">
+                            <span class="view-btn">Ver Detalles</span>
+                        </div>
+                    </div>
+                    <div class="proyecto-info">
+                        <h3>FearBot</h3>
+                        <p class="proyecto-role">Desarrollador</p>
+                        <div class="proyecto-tech">
+                            <span>JavaScript</span>
+                            <span>SQLite</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="proyecto-card" data-id="6" data-category="web">
+                    <div class="proyecto-img">
+                        <img src="../img/web1.png" alt="FearWeb">
+                        <div class="proyecto-overlay">
+                            <span class="view-btn">Ver Detalles</span>
+                        </div>
+                    </div>
+                    <div class="proyecto-info">
+                        <h3>FearWeb</h3>
+                        <p class="proyecto-role">Web Frontend</p>
+                        <div class="proyecto-tech">
+                            <span>HTML/CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="proyecto-card" data-id="5" data-category="web">
+                    <div class="proyecto-img">
+                        <img src="../img/web.png" alt="Portafolio Web">
+                        <div class="proyecto-overlay">
+                            <span class="view-btn">Ver Detalles</span>
+                        </div>
+                    </div>
+                    <div class="proyecto-info">
+                        <h3>Portafolio Web</h3>
+                        <p class="proyecto-role">Web Frontend</p>
+                        <div class="proyecto-tech">
+                            <span>HTML/CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                </div>              
+            </div>
+            
+            <!-- Modal para los detalles del proyecto -->
+            <div id="proyecto-modal" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn">&times;</span>
+                    <div id="modal-proyecto-content">
+                        <!-- El contenido se llenará con JS -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="footer-container">
+        <footer>
+            <p>&copy; 2025 Gaelbloqueado. Todos los derechos reservados.</p>
+        </footer>
+    </div>
+
+<div id="music-player" style="display:none;">
+    <audio id="background-music" loop>
+        <source src="../img/music1.mp3" type="audio/mp3">
+    </audio>
+</div>
+
+    <script src="../script.js"></script>
+    <script src="../proyectos.js"></script>
+</body>
+</html>
