@@ -1,0 +1,290 @@
+<!DOCTYPE html><html lang="es" class="dark"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width"><link rel="icon" type="image/x-icon" href="assets/portlogo.png"><!-- SEO --><title>gaelbloqueado | Portafolio</title><meta name="description" content="Portafolio de gaelbloqueado, desarrollador web frontend, bots discord y servidores de minecraft."><!-- Open Graph / Facebook --><meta property="og:type" content="website"><meta property="og:url" content="https://gb.fearmc.xyz"><meta property="og:image" content=""><meta property="og:title" content="@GaelBloqueado Portafolio"><meta property="og:description" content="Portafolio de gaelbloqueado, desarrollador web frontend, bots discord y servidores de minecraft."><link rel="stylesheet" href="styles.css"></head> <body class="px-2 bg-neutral-100 dark:bg-neutral-950">  <header class="fixed top-0 left-0 right-0 z-50 bg-neutral-100 dark:bg-neutral-900 border-b border-black/10 dark:border-neutral-800 shadow-md transition-colors"> <div class="max-w-6xl mx-auto flex justify-between items-center px-6 py-4"> <!-- Logo --> <a href="/" class="text-neutral-900 dark:text-white text-lg font-bold tracking-wide space-mono-bold"> <span class="inline-block border-2 border-neutral-900 dark:border-white px-2 py-1 text-[13px]">
+PTF
+</span> </a> <!-- Desktop Menu --> <nav class="hidden md:flex items-center gap-3"> <a href="#about-me" id="menu-item" class="space-mono-bold text-[13px] uppercase tracking-[0.12em] px-3 py-2 flex items-center gap-2 border-2 transition-all duration-300
+                    border-transparent text-neutral-800 dark:text-neutral-400 hover:ring-2 hover:ring-black dark:hover:ring-white"> <span id="menu-item-icon" class="text-neutral-400"> &gt; </span> Sobre Mi </a><a href="#projects" id="menu-item" class="space-mono-bold text-[13px] uppercase tracking-[0.12em] px-3 py-2 flex items-center gap-2 border-2 transition-all duration-300
+                    border-transparent text-neutral-800 dark:text-neutral-400 hover:ring-2 hover:ring-black dark:hover:ring-white"> <span id="menu-item-icon" class="text-neutral-400"> &gt; </span> Proyectos </a><a href="#experience" id="menu-item" class="space-mono-bold text-[13px] uppercase tracking-[0.12em] px-3 py-2 flex items-center gap-2 border-2 transition-all duration-300
+                    border-transparent text-neutral-800 dark:text-neutral-400 hover:ring-2 hover:ring-black dark:hover:ring-white"> <span id="menu-item-icon" class="text-neutral-400"> &gt; </span> Experiencia </a><a href="#contact" id="menu-item" class="space-mono-bold text-[13px] uppercase tracking-[0.12em] px-3 py-2 flex items-center gap-2 border-2 transition-all duration-300
+                    border-transparent text-neutral-800 dark:text-neutral-400 hover:ring-2 hover:ring-black dark:hover:ring-white"> <span id="menu-item-icon" class="text-neutral-400"> &gt; </span> Contacto </a> </nav> <!-- Theme Toggle --> <button id="theme-toggle" class="text-neutral-900 dark:text-white transition-colors ml-4 md:ml-0 cursor-pointer" aria-label="Cambiar tema"> <svg id="icon-sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide sun"> <circle cx="12" cy="12" r="4"></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path> </svg> <svg id="icon-moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide moon hidden"> <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path> </svg> </button> <!-- Mobile Toggle --> <button id="hamburger-btn" class="md:hidden text-neutral-900 dark:text-white ml-4"> <svg id="hamburger-icon" class="w-6 h-6 block" fill="none" stroke="currentColor" viewBox="0 0 24 24"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path> </svg> <svg id="close-icon" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path> </svg> </button> </div> <!-- Mobile Menu --> <nav id="mobile-menu" class="hidden md:hidden flex-col bg-neutral-100 dark:bg-neutral-900 border-t border-black/10 dark:border-neutral-800"> <a href="#about-me" class="space-mono-regular text-[13px] uppercase tracking-[0.12em] text-neutral-900 dark:text-white border-b border-black/10 dark:border-neutral-800 px-6 py-4 text-center hover:bg-neutral-900 hover:text-white dark:hover:bg-white dark:hover:text-black transition-all duration-150"> Sobre Mi </a><a href="#projects" class="space-mono-regular text-[13px] uppercase tracking-[0.12em] text-neutral-900 dark:text-white border-b border-black/10 dark:border-neutral-800 px-6 py-4 text-center hover:bg-neutral-900 hover:text-white dark:hover:bg-white dark:hover:text-black transition-all duration-150"> Proyectos </a><a href="#experience" class="space-mono-regular text-[13px] uppercase tracking-[0.12em] text-neutral-900 dark:text-white border-b border-black/10 dark:border-neutral-800 px-6 py-4 text-center hover:bg-neutral-900 hover:text-white dark:hover:bg-white dark:hover:text-black transition-all duration-150"> Experiencia </a><a href="#contact" class="space-mono-regular text-[13px] uppercase tracking-[0.12em] text-neutral-900 dark:text-white border-b border-black/10 dark:border-neutral-800 px-6 py-4 text-center hover:bg-neutral-900 hover:text-white dark:hover:bg-white dark:hover:text-black transition-all duration-150"> Contacto </a> </nav> </header> <!-- Scripts --> <script>
+  const html = document.documentElement;
+  const toggleBtn = document.getElementById('theme-toggle');
+  const iconSun = document.getElementById('icon-sun');
+  const iconMoon = document.getElementById('icon-moon');
+
+  const userPref = localStorage.getItem('theme');
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+  if (userPref === 'dark' || (!userPref && prefersDark)) {
+    html.classList.add('dark');
+    iconSun.classList.remove('hidden');
+    iconMoon.classList.add('hidden');
+  } else {
+    html.classList.remove('dark');
+    iconSun.classList.add('hidden');
+    iconMoon.classList.remove('hidden');
+  }
+
+  toggleBtn.addEventListener('click', () => {
+    const isDark = html.classList.contains('dark');
+    html.classList.toggle('dark');
+
+    if (isDark) {
+      localStorage.setItem('theme', 'light');
+      iconSun.classList.add('hidden');
+      iconMoon.classList.remove('hidden');
+    } else {
+      localStorage.setItem('theme', 'dark');
+      iconSun.classList.remove('hidden');
+      iconMoon.classList.add('hidden');
+    }
+  });
+
+  const btn = document.getElementById('hamburger-btn');
+  const menu = document.getElementById('mobile-menu');
+  const iconOpen = document.getElementById('hamburger-icon');
+  const iconClose = document.getElementById('close-icon');
+
+  btn.addEventListener('click', () => {
+    const isOpen = menu.classList.contains('flex');
+    menu.classList.toggle('hidden', isOpen);
+    menu.classList.toggle('flex', !isOpen);
+    iconOpen.classList.toggle('hidden', !isOpen);
+    iconClose.classList.toggle('hidden', isOpen);
+  });
+
+  document.querySelectorAll('#mobile-menu a').forEach((link) =>
+    link.addEventListener('click', () => {
+      menu.classList.add('hidden');
+      iconOpen.classList.remove('hidden');
+      iconClose.classList.add('hidden');
+    })
+  );
+</script> <!-- Scroll elements --> <script type="module">const s=document.querySelectorAll("#menu-item"),a=document.querySelectorAll("section");s.forEach(t=>{t.addEventListener("click",r=>{r.preventDefault(),document.querySelector(t.getAttribute("href"))?.scrollIntoView({behavior:"smooth"})})});const c=new IntersectionObserver(t=>{t.forEach(r=>{const o=r.target.id,n=document.querySelector(`#menu-item[href="#${o}"]`),e=n?.firstElementChild;r.isIntersecting?(n?.classList.add("bg-neutral-900","text-white","border-neutral-900","dark:bg-white","dark:text-neutral-800","dark:border-white"),e?.classList.add("text-green-500","dark:text-green-400"),e&&(e.textContent&&(e.textContent="●"))):(n?.classList.remove("bg-neutral-900","text-white","border-neutral-900","dark:bg-white","dark:text-neutral-800","dark:border-white","dark:ring-white"),e?.classList.remove("text-green-500","dark:text-green-400"),e&&(e.textContent&&(e.textContent=">")))})},{threshold:.6});a.forEach(t=>{c.observe(t)});</script> <section id="about-me" class="w-full mt-20 bg-neutral-100 dark:bg-neutral-950 text-neutral-800 dark:text-white px-6 py-16 relative overflow-hidden"> <div class="max-w-6xl mx-auto w-full flex flex-col lg:grid lg:grid-cols-[1.5fr_1fr] gap-12 items-start z-10"> <!-- Tarjeta --> <div class="w-full order-1 md:flex md:items-center md:justify-center lg:order-2 lg:justify-end"> <div class="w-full lg:max-w-[280px] bg-neutral-100 dark:bg-neutral-900 border border-neutral-800 dark:border-neutral-800 rounded-md shadow-md overflow-hidden flex flex-col justify-between"> <img src="assets/logo2.gif" alt="Gaelbloqueado" class="w-full h-[280px] md:h-[320px] lg:h-full object-contain border-b border-neutral-800 dark:border-neutral-800 grayscale hover:grayscale-0 transition"> <div class="px-5 py-4 text-left space-y-2"> <p class="space-mono-bold text-[11px] uppercase text-neutral-500 dark:text-neutral-400 tracking-widest">
+sistema: dev@bloqueado
+</p> <p class="text-neutral-800 dark:text-white space-mono-bold text-[14px] leading-tight capitalize">
+acceso autorizado
+</p> <div class="flex items-center gap-2 mt-2"> <span class="text-neutral-800 dark:text-green-400 space-mono-regular text-[11px] uppercase border border-neutral-800 dark:border-green-600 px-2 py-0.5 rounded">
+disponible
+</span> <span class="text-[13px] font-mono text-neutral-700 dark:text-neutral-400">
+#frontend-dev
+</span> </div> </div> <div class="px-5 py-4 text-left text-[13px] font-mono text-neutral-700 dark:text-neutral-400 border-t border-neutral-800 dark:border-neutral-800 leading-tight"> <p><span class="text-neutral-800 dark:text-white">Nombre:</span> Gael</p> <p><span class="text-neutral-800 dark:text-white">Rol:</span> Desarrollador Web, Desarollador Discord, Desarollador Minecraft</p> <p> <span class="text-neutral-800 dark:text-white">Stack:</span> HTML, CSS, JavaScript
+</p> </div> <div class="px-5 py-3 text-center border-t border-neutral-800 dark:border-neutral-800"> <p class="space-mono-regular text-[11px] uppercase text-neutral-500 dark:text-neutral-400 tracking-widest mt-1">
+id: dev@bloqueado/admin
+</p> </div> </div> </div> <!-- Contenido --> <div class="space-y-12 order-2 lg:order-1 w-full"> <!-- Título --> <div class="space-y-3"> <h1 class="text-5xl space-mono-bold tracking-tight text-neutral-800 dark:text-white"> <span class="text-neutral-500 dark:text-neutral-500">></span> Hola, soy
+<span class="text-neutral-800 dark:text-green-400"> Gaelbloqueado</span><span class="animate-pulse">_</span> </h1> <p class="text-[15px] font-normal text-neutral-700 dark:text-neutral-400">
+Desarrollador servidores de Minecraft
+</p> </div> <!-- Información --> <section class="space-y-3 max-w-2xl"> <h3 class="space-mono-bold text-[11px] uppercase text-neutral-500 dark:text-neutral-400 tracking-widest">
+Sobre Mi
+</h3> <p class="text-[15px] space-mono-regular leading-relaxed text-neutral-800 dark:text-neutral-300">
+      Soy un desarrollador apasionado por transformar ideas en experiencias digitales, especializado
+      en servidores Minecraft personalizados y bots de Discord funcionales y eficientes. Con 2 años de
+      experencia de desarollo de minecraft y 1 año de bots de discord.
+</p> </section> <!-- Stack --> <section class="max-w-2xl w-full"> <h3 class="space-mono-bold text-[11px] uppercase text-neutral-500 dark:text-neutral-400 mb-4 tracking-widest">
+Tecnologías utilizadas
+</h3> <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-3 text-sm"> <li class="bg-neutral-100 dark:bg-neutral-900 border border-neutral-800 dark:border-neutral-800 rounded p-3 shadow-sm w-full min-w-0"> <div class="flex justify-between items-start mb-1"> <span class="space-mono-bold text-[11px] uppercase text-neutral-800 dark:text-white break-all leading-snug w-[80%]"> html.mod
+</span> <span class="text-neutral-800 dark:text-green-400 space-mono-regular text-[10px] uppercase whitespace-nowrap">
+ok
+</span> </div> <p class="text-[11px] text-neutral-600 dark:text-neutral-400 font-mono leading-tight break-words whitespace-normal">
+/modules/html <br>
+v1.1.0
+</p> </li><li class="bg-neutral-100 dark:bg-neutral-900 border border-neutral-800 dark:border-neutral-800 rounded p-3 shadow-sm w-full min-w-0"> <div class="flex justify-between items-start mb-1"> <span class="space-mono-bold text-[11px] uppercase text-neutral-800 dark:text-white break-all leading-snug w-[80%]"> css.mod
+</span> <span class="text-neutral-800 dark:text-green-400 space-mono-regular text-[10px] uppercase whitespace-nowrap">
+ok
+</span> </div> <p class="text-[11px] text-neutral-600 dark:text-neutral-400 font-mono leading-tight break-words whitespace-normal">
+/modules/css <br>
+v1.2.0
+</p> </li><li class="bg-neutral-100 dark:bg-neutral-900 border border-neutral-800 dark:border-neutral-800 rounded p-3 shadow-sm w-full min-w-0"> <div class="flex justify-between items-start mb-1"> <span class="space-mono-bold text-[11px] uppercase text-neutral-800 dark:text-white break-all leading-snug w-[80%]"> javascript.mod
+</span> <span class="text-neutral-800 dark:text-green-400 space-mono-regular text-[10px] uppercase whitespace-nowrap">
+ok
+</span> </div> <p class="text-[11px] text-neutral-600 dark:text-neutral-400 font-mono leading-tight break-words whitespace-normal">
+/modules/javascript <br>
+v1.3.0
+</p> </li><li class="bg-neutral-100 dark:bg-neutral-900 border border-neutral-800 dark:border-neutral-800 rounded p-3 shadow-sm w-full min-w-0"> <div class="flex justify-between items-start mb-1"> <span class="space-mono-bold text-[11px] uppercase text-neutral-800 dark:text-white break-all leading-snug w-[80%]"> astro.mod
+</span> <span class="text-neutral-800 dark:text-green-400 space-mono-regular text-[10px] uppercase whitespace-nowrap">
+ok
+</span> </div> <p class="text-[11px] text-neutral-600 dark:text-neutral-400 font-mono leading-tight break-words whitespace-normal">
+/modules/astro <br>
+v1.4.0
+</p> </li><li class="bg-neutral-100 dark:bg-neutral-900 border border-neutral-800 dark:border-neutral-800 rounded p-3 shadow-sm w-full min-w-0"> <div class="flex justify-between items-start mb-1"> <span class="space-mono-bold text-[11px] uppercase text-neutral-800 dark:text-white break-all leading-snug w-[80%]"> tailwind css.mod
+</span> <span class="text-neutral-800 dark:text-green-400 space-mono-regular text-[10px] uppercase whitespace-nowrap">
+ok
+</span> </div> <p class="text-[11px] text-neutral-600 dark:text-neutral-400 font-mono leading-tight break-words whitespace-normal">
+/modules/tailwind css <br>
+v1.5.0
+</p> </li><li class="bg-neutral-100 dark:bg-neutral-900 border border-neutral-800 dark:border-neutral-800 rounded p-3 shadow-sm w-full min-w-0"> <div class="flex justify-between items-start mb-1"> <span class="space-mono-bold text-[11px] uppercase text-neutral-800 dark:text-white break-all leading-snug w-[80%]"> sqlite.mod
+</span> <span class="text-neutral-800 dark:text-green-400 space-mono-regular text-[10px] uppercase whitespace-nowrap">
+ok
+</span> </div> <p class="text-[11px] text-neutral-600 dark:text-neutral-400 font-mono leading-tight break-words whitespace-normal">
+/modules/sqlite <br>
+v1.6.0
+</p> </li><li class="bg-neutral-100 dark:bg-neutral-900 border border-neutral-800 dark:border-neutral-800 rounded p-3 shadow-sm w-full min-w-0"> <div class="flex justify-between items-start mb-1"> <span class="space-mono-bold text-[11px] uppercase text-neutral-800 dark:text-white break-all leading-snug w-[80%]"> git.mod
+</span> <span class="text-neutral-800 dark:text-green-400 space-mono-regular text-[10px] uppercase whitespace-nowrap">
+ok
+</span> </div> <p class="text-[11px] text-neutral-600 dark:text-neutral-400 font-mono leading-tight break-words whitespace-normal">
+/modules/git <br>
+v1.7.0
+</p> </li> </ul> </section> <!-- Accesos --> <section class="pt-8 max-w-2xl"> <div class="mb-4"> <h3 class="space-mono-bold text-[10px] uppercase text-neutral-500 dark:text-neutral-400 tracking-widest mb-2">
+Acceso directo
+</h3> <p class="text-[15px] space-mono-regular text-neutral-700 dark:text-neutral-400">
+Accede rápidamente a mis redes.
+</p> </div> <div class="grid sm:grid-cols-3 gap-4"> <a href="https://github.com/gaelbloqueado" target="_blank" class="group relative bg-neutral-100 dark:bg-neutral-900 text-neutral-800 dark:text-white border-2 border-black dark:border-white px-6 py-4 rounded shadow-lg hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-all duration-200 space-mono-bold text-[11px] uppercase tracking-widest text-center active:scale-95 cursor-pointer">
+github
+<span class="absolute bottom-1 right-2 text-[8px] text-neutral-500 dark:text-neutral-400 group-hover:text-white dark:group-hover:text-black font-mono">.dev</span> </a> <a href="https://discord.com/users/gaelbloqueado1" target="_blank" rel="noopener noreferrer" class="group relative bg-neutral-100 dark:bg-neutral-900 text-neutral-800 dark:text-white border-2 border-black dark:border-white px-6 py-4 rounded shadow-lg hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-all duration-200 space-mono-bold text-[11px] uppercase tracking-widest text-center active:scale-95 cursor-pointer">
+discord
+<span class="absolute bottom-1 right-2 text-[8px] text-neutral-500 dark:text-neutral-400 group-hover:text-white dark:group-hover:text-black font-mono">.msg</span> </a> <a href="mailto:gael23885@gmail.com" target="_blank" class="group relative bg-neutral-100 dark:bg-neutral-900 text-neutral-800 dark:text-white border-2 border-black dark:border-white px-6 py-4 rounded shadow-lg hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-all duration-200 space-mono-bold text-[11px] uppercase tracking-widest text-center active:scale-95 cursor-pointer">
+gmail
+<span class="absolute bottom-1 right-2 text-[8px] text-neutral-500 dark:text-neutral-400 group-hover:text-white dark:group-hover:text-black font-mono">.msg</span> </a> <a href="https://m-ebio.vercel.app/" target="_blank" class="group relative bg-neutral-100 dark:bg-neutral-900 text-neutral-800 dark:text-white border-2 border-black dark:border-white px-6 py-4 rounded shadow-lg hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-all duration-200 space-mono-bold text-[11px] uppercase tracking-widest text-center active:scale-95 cursor-pointer">
+bio
+<span class="absolute bottom-1 right-2 text-[8px] text-neutral-500 dark:text-neutral-400 group-hover:text-white dark:group-hover:text-black font-mono">.info</span> </a> </div> </section> </div> </div> </section> <section id="projects" class="w-full bg-neutral-100 dark:bg-neutral-950 text-neutral-800 dark:text-white px-6 py-20 font-sans relative overflow-hidden"> <!-- Title --> <div class="max-w-6xl mx-auto text-center mb-16"> <h2 class="text-3xl md:text-5xl space-mono-bold tracking-tight"> <span class="text-neutral-800 dark:text-green-400">#</span> Proyectos <span class="animate-pulse">_</span> </h2> <p class="mt-3 text-[15px] space-mono-regular text-neutral-600 dark:text-neutral-400 max-w-2xl mx-auto">
+Algunos sistemas que he desarrollado recientemente
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- FearWeb -->
+</p> </div> <div class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 z-10">
+
+  <div class="group relative bg-white dark:bg-neutral-900 border border-neutral-300 dark:border-neutral-700 rounded-md shadow-sm flex flex-col overflow-hidden transition-all duration-300 hover:ring-1 hover:ring-black dark:hover:ring-green-400 cursor-pointer" data-desc="Una pagina web informativa para nuestra comunidad.">
+    <div class="flex items-center justify-between px-3 py-2 bg-neutral-200 dark:bg-neutral-800 border-b border-neutral-300 dark:border-neutral-700">
+      <div class="flex gap-1">
+        <span class="w-2.5 h-2.5 rounded-full bg-red-500"></span>
+        <span class="w-2.5 h-2.5 rounded-full bg-yellow-400"></span>
+        <span class="w-2.5 h-2.5 rounded-full bg-green-500"></span>
+      </div>
+      <span class="text-[10px] space-mono-bold uppercase text-neutral-600 dark:text-neutral-300 tracking-wide"> fearmcweb </span>
+    </div>
+    <div class="h-[160px] overflow-hidden border-b border-neutral-200 dark:border-neutral-700">
+      <img src="assets/web1.png" alt="FearWeb" class="w-full h-full object-cover filter grayscale group-hover:grayscale-0 transition-transform duration-300 group-hover:scale-[1.03]">
+    </div>
+    <div class="hidden sm:block absolute bottom-[115px] left-1/2 -translate-x-1/2 bg-neutral-950 text-neutral-100 text-[11px] font-mono px-4 py-2 rounded border border-white/10 shadow-xl w-[88%] max-w-sm z-30 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none text-center">
+      Una pagina web informativa para nuestra comunidad.
+    </div>
+    <div class="block sm:hidden px-4 py-3 text-[13px] text-neutral-700 dark:text-neutral-300 font-mono">
+      Una pagina web informativa para nuestra comunidad.
+    </div>
+    <ul class="flex flex-wrap gap-1 px-4 py-3 text-[10px] font-mono tracking-wide">
+      <li class="bg-neutral-200 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 px-2 py-0.5 rounded-sm uppercase"> HTML </li>
+      <li class="bg-neutral-200 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 px-2 py-0.5 rounded-sm uppercase"> CSS </li>
+      <li class="bg-neutral-200 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 px-2 py-0.5 rounded-sm uppercase"> JavaScript </li>
+    </ul>
+    <div class="flex gap-2 px-4 py-4 mt-auto border-t border-neutral-200 dark:border-neutral-700">
+      <a href="https://www.fearmc.xyz/" target="_blank" class="flex-1 text-[10px] space-mono-bold uppercase text-center py-2 rounded bg-neutral-200 dark:bg-neutral-800 text-black dark:text-white border border-neutral-800 dark:border-white hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-colors duration-200 active:scale-95">
+        ver demo
+        <span class="ml-1 text-[8px] text-neutral-500 dark:text-neutral-600">.xyz</span>
+      </a>
+      <a href="https://github.com/gaelbloqueado/fearmcweb" target="_blank" class="flex-1 text-[10px] space-mono-bold uppercase text-center py-2 rounded bg-neutral-200 dark:bg-neutral-800 text-black dark:text-white border border-neutral-800 dark:border-white hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-colors duration-200 active:scale-95">
+        github
+        <span class="ml-1 text-[8px] text-neutral-500 dark:text-neutral-600">.git</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="group relative bg-white dark:bg-neutral-900 border border-neutral-300 dark:border-neutral-700 rounded-md shadow-sm flex flex-col overflow-hidden transition-all duration-300 hover:ring-1 hover:ring-black dark:hover:ring-green-400 cursor-pointer" data-desc="Un bot de discord privado para nuestro servidor con multiples sistemas y comandos.">
+    <div class="flex items-center justify-between px-3 py-2 bg-neutral-200 dark:bg-neutral-800 border-b border-neutral-300 dark:border-neutral-700">
+      <div class="flex gap-1">
+        <span class="w-2.5 h-2.5 rounded-full bg-red-500"></span>
+        <span class="w-2.5 h-2.5 rounded-full bg-yellow-400"></span>
+        <span class="w-2.5 h-2.5 rounded-full bg-green-500"></span>
+      </div>
+      <span class="text-[10px] space-mono-bold uppercase text-neutral-600 dark:text-neutral-300 tracking-wide"> FearBot </span>
+    </div>
+    <div class="h-[160px] overflow-hidden border-b border-neutral-200 dark:border-neutral-700">
+      <img src="assets/fearbot.png" alt="FearBot" class="w-full h-full object-cover filter grayscale group-hover:grayscale-0 transition-transform duration-300 group-hover:scale-[1.03]">
+    </div>
+    <div class="hidden sm:block absolute bottom-[115px] left-1/2 -translate-x-1/2 bg-neutral-950 text-neutral-100 text-[11px] font-mono px-4 py-2 rounded border border-white/10 shadow-xl w-[88%] max-w-sm z-30 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none text-center">
+      Un bot de discord privado para nuestro servidor con multiples sistemas y comandos.
+    </div>
+    <div class="block sm:hidden px-4 py-3 text-[13px] text-neutral-700 dark:text-neutral-300 font-mono">
+      Un bot de discord privado para nuestro servidor con multiples sistemas y comandos.
+    </div>
+    <ul class="flex flex-wrap gap-1 px-4 py-3 text-[10px] font-mono tracking-wide">
+      <li class="bg-neutral-200 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 px-2 py-0.5 rounded-sm uppercase"> JavaScript </li>
+      <li class="bg-neutral-200 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 px-2 py-0.5 rounded-sm uppercase"> SQLite </li>
+      <li class="bg-neutral-200 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 px-2 py-0.5 rounded-sm uppercase"> Axios </li>
+      <li class="bg-neutral-200 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 px-2 py-0.5 rounded-sm uppercase"> Discord.js </li>
+    </ul>
+    <div class="flex gap-2 px-4 py-4 mt-auto border-t border-neutral-200 dark:border-neutral-700">
+      <span class="flex-1 text-[10px] space-mono-bold uppercase text-center py-2 rounded bg-neutral-100 dark:bg-neutral-850 text-neutral-500 dark:text-neutral-400 border border-neutral-300 dark:border-neutral-700 cursor-not-allowed">
+        Demo Privada
+      </span>
+      <span class="flex-1 text-[10px] space-mono-bold uppercase text-center py-2 rounded bg-neutral-100 dark:bg-neutral-850 text-neutral-500 dark:text-neutral-400 border border-neutral-300 dark:border-neutral-700 cursor-not-allowed">
+        GitHub Privado
+      </span>
+    </div>
+  </div>
+
+  <div class="group relative bg-white dark:bg-neutral-900 border border-neutral-300 dark:border-neutral-700 rounded-md shadow-sm flex flex-col overflow-hidden transition-all duration-300 hover:ring-1 hover:ring-black dark:hover:ring-green-400 cursor-pointer" data-desc="Un bot de discord publico para destruir servidores, se usa por su propia responsabilidad.">
+    <div class="flex items-center justify-between px-3 py-2 bg-neutral-200 dark:bg-neutral-800 border-b border-neutral-300 dark:border-neutral-700">
+      <div class="flex gap-1">
+        <span class="w-2.5 h-2.5 rounded-full bg-red-500"></span>
+        <span class="w-2.5 h-2.5 rounded-full bg-yellow-400"></span>
+        <span class="w-2.5 h-2.5 rounded-full bg-green-500"></span>
+      </div>
+      <span class="text-[10px] space-mono-bold uppercase text-neutral-600 dark:text-neutral-300 tracking-wide"> GB-Tool </span>
+    </div>
+    <div class="h-[160px] overflow-hidden border-b border-neutral-200 dark:border-neutral-700">
+      <img src="assets/gbtool.png" alt="GB-Tool" class="w-full h-full object-cover filter grayscale group-hover:grayscale-0 transition-transform duration-300 group-hover:scale-[1.03]">
+    </div>
+    <div class="hidden sm:block absolute bottom-[115px] left-1/2 -translate-x-1/2 bg-neutral-950 text-neutral-100 text-[11px] font-mono px-4 py-2 rounded border border-white/10 shadow-xl w-[88%] max-w-sm z-30 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none text-center">
+      Un bot de discord publico para destruir servidores, se usa por su propia responsabilidad.
+    </div>
+    <div class="block sm:hidden px-4 py-3 text-[13px] text-neutral-700 dark:text-neutral-300 font-mono">
+      Un bot de discord publico para destruir servidores, se usa por su propia responsabilidad.
+    </div>
+    <ul class="flex flex-wrap gap-1 px-4 py-3 text-[10px] font-mono tracking-wide">
+      <li class="bg-neutral-200 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 px-2 py-0.5 rounded-sm uppercase"> JavaScript </li>
+    </ul>
+    <div class="flex gap-2 px-4 py-4 mt-auto border-t border-neutral-200 dark:border-neutral-700">
+      <span class="flex-1 text-[10px] space-mono-bold uppercase text-center py-2 rounded bg-neutral-100 dark:bg-neutral-850 text-neutral-500 dark:text-neutral-400 border border-neutral-300 dark:border-neutral-700 cursor-not-allowed">
+        Sin Demo
+      </span>
+      <a href="https://github.com/gaelbloqueado/gb-tool" target="_blank" class="flex-1 text-[10px] space-mono-bold uppercase text-center py-2 rounded bg-neutral-200 dark:bg-neutral-800 text-black dark:text-white border border-neutral-800 dark:border-white hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-colors duration-200 active:scale-95">
+        github
+        <span class="ml-1 text-[8px] text-neutral-500 dark:text-neutral-600">.git</span>
+      </a>
+    </div>
+  </div>
+
+</div> </section> <section id="experience" class="w-full bg-neutral-100 dark:bg-neutral-950 text-neutral-800 dark:text-white px-6 py-20 font-sans relative overflow-hidden">
+
+ <!-- Título --> <div class="max-w-6xl mx-auto text-center mb-16 relative z-10"> <h2 class="text-3xl md:text-5xl space-mono-bold tracking-tight"> <span class="text-neutral-800 dark:text-green-400">#</span> Experiencia <span class="animate-pulse">_</span> </h2> <p class="mt-3 text-[15px] space-mono-regular text-neutral-600 dark:text-neutral-400 font-normal max-w-2xl mx-auto">
+Mis momentos clave que han definido mi camino profesional y las experiencias que me han
+      llevado hasta donde estoy hoy.
+</p> </div> <!-- Contenido --> <div class="max-w-6xl mx-auto grid lg:grid-cols-[1fr_auto] gap-10 relative z-10"> <!-- Experiences --> <div class="w-full max-w-3xl text-[14px] space-mono-regular space-y-12 leading-relaxed"> <div class="relative space-y-4 border-l-2 border-neutral-800 dark:border-green-500
+             pl-2 sm:pl-4"> <div class="flex items-center gap-2 text-neutral-800 dark:text-white space-mono-bold"> <svg class="w-4 h-4 text-neutral-800 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20"> <path d="M2 4a2 2 0 012-2h4l2 2h6a2 2 0 012 2v1H2V4zM2 7h16v7a2 2 0 01-2 2H4a2 2 0 01-2-2V7z"></path> </svg> 2025-actual/
+</div> <div class="space-y-4"> <details class="relative border-l-2 border-dashed border-neutral-300 dark:border-neutral-700 pl-5 group transition" open> <summary class="cursor-pointer flex items-center gap-2 text-neutral-800 dark:text-white hover:text-black dark:hover:text-green-400 transition-all underline-offset-4 hover:underline"> <svg class="w-3 h-3 text-neutral-600 dark:text-neutral-400" fill="currentColor" viewBox="0 0 20 20"> <path d="M4 2h8a2 2 0 012 2v1h2a2 2 0 012 2v1H2V4a2 2 0 012-2z"></path> </svg> fearmc.sv </summary> <p class="mt-2 ml-2 p-3 rounded bg-white dark:bg-neutral-900 text-[14px] text-neutral-700 dark:text-neutral-300 border border-neutral-300 dark:border-white/10 leading-relaxed shadow-sm space-mono-regular"> Actualmente estoy en el proyecto FearMC Network, donde estoy desarollando el servidor de minecraft y cosas externas como Web oficial y Bot de discord. </p> </details> </div> </div><div class="relative space-y-4 border-l-2 border-neutral-800 dark:border-green-500
+             pl-2 sm:pl-4"> <div class="flex items-center gap-2 text-neutral-800 dark:text-white space-mono-bold"> <svg class="w-4 h-4 text-neutral-800 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20"> <path d="M2 4a2 2 0 012-2h4l2 2h6a2 2 0 012 2v1H2V4zM2 7h16v7a2 2 0 01-2 2H4a2 2 0 01-2-2V7z"></path> </svg> 2023-2025/
+</div> <div class="space-y-4"> <details class="relative border-l-2 border-dashed border-neutral-300 dark:border-neutral-700 pl-5 group transition" open> <summary class="cursor-pointer flex items-center gap-2 text-neutral-800 dark:text-white hover:text-black dark:hover:text-green-400 transition-all underline-offset-4 hover:underline"> <svg class="w-3 h-3 text-neutral-600 dark:text-neutral-400" fill="currentColor" viewBox="0 0 20 20"> <path d="M4 2h8a2 2 0 012 2v1h2a2 2 0 012 2v1H2V4a2 2 0 012-2z"></path> </svg> extras.sv </summary> <p class="mt-2 ml-2 p-3 rounded bg-white dark:bg-neutral-900 text-[14px] text-neutral-700 dark:text-neutral-300 border border-neutral-300 dark:border-white/10 leading-relaxed shadow-sm space-mono-regular"> Durante estos 2 años fui parte de varios servidores como configurador aportando mi conocimiento y en la mayoria consegui la experencia y conocimientos que tengo ahora. </p> </details> </div> </div><div class="relative space-y-4 border-l-2 border-neutral-800 dark:border-green-500
+             pl-5 sm:pl-8"> <div class="flex items-center gap-2 text-neutral-800 dark:text-white space-mono-bold"> <svg class="w-4 h-4 text-neutral-800 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20"> <path d="M2 4a2 2 0 012-2h4l2 2h6a2 2 0 012 2v1H2V4zM2 7h16v7a2 2 0 01-2 2H4a2 2 0 01-2-2V7z"></path> </svg> 2023-2024/
+</div> <div class="space-y-4"> <details class="relative border-l-2 border-dashed border-neutral-300 dark:border-neutral-700 pl-5 group transition"> <summary class="cursor-pointer flex items-center gap-2 text-neutral-800 dark:text-white hover:text-black dark:hover:text-green-400 transition-all underline-offset-4 hover:underline"> <svg class="w-3 h-3 text-neutral-600 dark:text-neutral-400" fill="currentColor" viewBox="0 0 20 20"> <path d="M4 2h8a2 2 0 012 2v1h2a2 2 0 012 2v1H2V4a2 2 0 012-2z"></path> </svg> minedou.sv </summary> <p class="mt-2 ml-2 p-3 rounded bg-white dark:bg-neutral-900 text-[14px] text-neutral-700 dark:text-neutral-300 border border-neutral-300 dark:border-white/10 leading-relaxed shadow-sm space-mono-regular"> Uno de mis primeros proyectos, aqui me abri munchisimo mas en temas de configuracion y por ende agarre buena experencia aqui, el servidor cerro por problemas de la administracion. </p> </details> </div> </div><div class="relative space-y-4 border-l-2 border-neutral-800 dark:border-green-500
+             pl-8 sm:pl-12"> <div class="flex items-center gap-2 text-neutral-800 dark:text-white space-mono-bold"> <svg class="w-4 h-4 text-neutral-800 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20"> <path d="M2 4a2 2 0 012-2h4l2 2h6a2 2 0 012 2v1H2V4zM2 7h16v7a2 2 0 01-2 2H4a2 2 0 01-2-2V7z"></path> </svg> 2023-2024/
+</div> <div class="space-y-4"> <details class="relative border-l-2 border-dashed border-neutral-300 dark:border-neutral-700 pl-5 group transition"> <summary class="cursor-pointer flex items-center gap-2 text-neutral-800 dark:text-white hover:text-black dark:hover:text-green-400 transition-all underline-offset-4 hover:underline"> <svg class="w-3 h-3 text-neutral-600 dark:text-neutral-400" fill="currentColor" viewBox="0 0 20 20"> <path d="M4 2h8a2 2 0 012 2v1h2a2 2 0 012 2v1H2V4a2 2 0 012-2z"></path> </svg> ursusmc.sv </summary> <p class="mt-2 ml-2 p-3 rounded bg-white dark:bg-neutral-900 text-[14px] text-neutral-700 dark:text-neutral-300 border border-neutral-300 dark:border-white/10 leading-relaxed shadow-sm space-mono-regular"> Este proyecto empezo con un hosting free y fue progresando hasta generar el dinero suficiente para un hosting, tenia un buen potencial pero tuvo que cerrar por problemas economicos, aporte la mayoria de configuracion en el cambio de hosting. </p> </details><details class="relative border-l-2 border-dashed border-neutral-300 dark:border-neutral-700 pl-5 group transition"> <summary class="cursor-pointer flex items-center gap-2 text-neutral-800 dark:text-white hover:text-black dark:hover:text-green-400 transition-all underline-offset-4 hover:underline"> <svg class="w-3 h-3 text-neutral-600 dark:text-neutral-400" fill="currentColor" viewBox="0 0 20 20"> <path d="M4 2h8a2 2 0 012 2v1h2a2 2 0 012 2v1H2V4a2 2 0 012-2z"></path> </svg> slunmc.sv </summary> <p class="mt-2 ml-2 p-3 rounded bg-white dark:bg-neutral-900 text-[14px] text-neutral-700 dark:text-neutral-300 border border-neutral-300 dark:border-white/10 leading-relaxed shadow-sm space-mono-regular"> Un proyecto en donde aporte la mayoria de su configuracion y tenia un gran potencial, lastimosamente el servidor cerro por problemas de administracion. </p>  </details> </div> </div> </div> <!-- Sidebar --> <aside class="hidden lg:flex flex-col text-[12px] space-mono-regular bg-neutral-100 dark:bg-neutral-900 text-neutral-800 dark:text-green-400 p-4 rounded-md border border-black/10 dark:border-neutral-800 w-[250px] shadow-sm"> <p class="mb-2 text-black dark:text-white space-mono-bold">[user.sys]</p> <p>usuario: dev@bloqueado</p> <p>rol: frontend-dev, discord-dev, minecraft-dev</p> <p>versión: v1.0.0</p> <p>modo actual: experiencia</p> <p>estado: disponible</p> <p class="mt-3 text-neutral-700 dark:text-green-300">[✓] identidad verificada</p> </aside> </div> </section> <section id="contact" class="w-full bg-neutral-100 dark:bg-neutral-950 text-neutral-900 dark:text-white px-6 py-20 relative overflow-hidden"> <!-- Título --> <div class="max-w-6xl mx-auto text-center mb-16"> <h2 class="text-3xl md:text-5xl space-mono-bold tracking-tight"> <span class="text-neutral-900 dark:text-green-400">#</span> Contacto <span class="animate-pulse">_</span> </h2> <p class="mt-3 text-[15px] space-mono-regular text-neutral-600 dark:text-neutral-400 max-w-2xl mx-auto">
+Si deseas ponerte en contacto conmigo, no dudes en escribirme. Estoy abierto a nuevas oportunidades y colaboraciones.
+</div> </form> </div> </section> <footer class="bg-neutral-100 dark:bg-neutral-950 text-neutral-800 dark:text-white px-6 py-10 border-t border-black/10 dark:border-neutral-800 relative text-[13px] space-mono-regular"> <!-- Content--> <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-6 items-start relative z-10"> <!-- left --> <div class="space-y-1 leading-tight"> <p class="dark:text-green-400">[log] session terminated</p> <p class="text-neutral-800 dark:text-neutral-400">
+status: <span class="text-neutral-800 dark:text-green-400">0</span> — safe shutdown
+</p> <p class="text-neutral-700 dark:text-neutral-500 text-xs">
+env: production | version: v1.0.0 | build@<span class="text-neutral-800 dark:text-white">2025-05-20</span> </p> <p class="text-neutral-700 dark:text-neutral-500 text-xs">
+commit: <span class="text-neutral-800 dark:text-white">#9f3d7a1</span> | updated: ??? </p> </div> <!-- right --> <div class="text-right space-y-1 leading-tight"> <p class="text-neutral-800 dark:text-neutral-300">
+Elaborado con <span class="text-red-500">❤</span> por
+<a href="https://github.com/gaelbloqueado" target="_blank" class="underline text-neutral-800 dark:text-green-400 hover:text-black dark:hover:text-white transition">
+gaelbloqueado
+</a> </p> <p class="text-[10px] uppercase tracking-widest text-neutral-600 dark:text-neutral-500 mt-3 space-mono-bold">
+id: dev@bloqueado // node.footer
+</p> <p class="text-neutral-800 dark:text-green-400 text-xs">[✓] system ready for next launch</p> </div> </div> <!-- Line --> <div class="w-full h-[1px] bg-gradient-to-r from-transparent via-neutral-500 dark:via-neutral-700 to-transparent opacity-20 mt-6"></div> <p class="mt-3 text-center text-neutral-800 dark:text-green-400 text-sm animate-pulse select-none">
+>_ goodbye
+</p> </footer>  <vercel-analytics data-props="{}" data-params="{}" data-pathname="/"></vercel-analytics> <script type="module">var f="@vercel/analytics",l="1.5.0",w=()=>{window.va||(window.va=function(...r){(window.vaq=window.vaq||[]).push(r)})};function d(){return typeof window<"u"}function u(){try{const e="production"}catch{}return"production"}function v(e="auto"){if(e==="auto"){window.vam=u();return}window.vam=e}function m(){return(d()?window.vam:u())||"production"}function c(){return m()==="development"}function b(e,r){if(!e||!r)return e;let n=e;try{const t=Object.entries(r);for(const[a,i]of t)if(!Array.isArray(i)){const o=s(i);o.test(n)&&(n=n.replace(o,`/[${a}]`))}for(const[a,i]of t)if(Array.isArray(i)){const o=s(i.join("/"));o.test(n)&&(n=n.replace(o,`/[...${a}]`))}return n}catch{return e}}function s(e){return new RegExp(`/${h(e)}(?=[/?#]|$)`)}function h(e){return e.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")}function y(e){return e.scriptSrc?e.scriptSrc:c()?"https://va.vercel-scripts.com/v1/script.debug.js":e.basePath?`${e.basePath}/insights/script.js`:"/_vercel/insights/script.js"}function g(e={debug:!0}){var r;if(!d())return;v(e.mode),w(),e.beforeSend&&((r=window.va)==null||r.call(window,"beforeSend",e.beforeSend));const n=y(e);if(document.head.querySelector(`script[src*="${n}"]`))return;const t=document.createElement("script");t.src=n,t.defer=!0,t.dataset.sdkn=f+(e.framework?`/${e.framework}`:""),t.dataset.sdkv=l,e.disableAutoTrack&&(t.dataset.disableAutoTrack="1"),e.endpoint?t.dataset.endpoint=e.endpoint:e.basePath&&(t.dataset.endpoint=`${e.basePath}/insights`),e.dsn&&(t.dataset.dsn=e.dsn),t.onerror=()=>{const a=c()?"Please check if any ad blockers are enabled and try again.":"Be sure to enable Web Analytics for your project and deploy again. See https://vercel.com/docs/analytics/quickstart for more information.";console.log(`[Vercel Web Analytics] Failed to load script from ${n}. ${a}`)},c()&&e.debug===!1&&(t.dataset.debug="false"),document.head.appendChild(t)}function p({route:e,path:r}){var n;(n=window.va)==null||n.call(window,"pageview",{route:e,path:r})}function k(){try{return}catch{}}customElements.define("vercel-analytics",class extends HTMLElement{constructor(){super();try{const r=JSON.parse(this.dataset.props??"{}"),n=JSON.parse(this.dataset.params??"{}");g({...r,disableAutoTrack:!0,framework:"astro",basePath:k(),beforeSend:window.webAnalyticsBeforeSend});const t=this.dataset.pathname;p({route:b(t??"",n),path:t})}catch(r){throw new Error(`Failed to parse WebAnalytics properties: ${r}`)}}});</script> <button id="scrollTopBtn" class="fixed bottom-6 right-6 z-50 hidden p-3 rounded border-2 border-black dark:border-green-400 bg-neutral-100 dark:bg-neutral-900 text-black dark:text-green-400 text-[11px] uppercase tracking-widest shadow-lg transition-all duration-200 cursor-pointer
+    space-mono-bold
+    hover:bg-black hover:text-white
+    dark:hover:bg-green-400 dark:hover:text-black
+    hover:shadow-[0_0_10px_rgba(0,0,0,0.5)]
+    dark:hover:shadow-[0_0_10px_rgba(0,255,128,0.4)]" aria-label="Volver arriba">
+↑ top
+</button> <script>
+    const scrollTopBtn = document.getElementById('scrollTopBtn');
+    const toggleScrollTopBtn = () => {
+      const isLargeScreen = window.matchMedia('(min-width: 768px)').matches;
+      const shouldShow = window.scrollY > 500 && isLargeScreen;
+      scrollTopBtn.classList.toggle('hidden', !shouldShow);
+    };
+    window.addEventListener('scroll', toggleScrollTopBtn);
+    window.addEventListener('load', toggleScrollTopBtn);
+    scrollTopBtn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  </script> </body></html>
